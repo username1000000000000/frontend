@@ -1,0 +1,200 @@
+html {
+  background-color: #14171a;
+}
+
+.App {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: '70vh';
+  position: relative;
+  align-content: center;
+  vertical-align: middle;
+ 
+  background-color: #14171a;
+  overflow: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.share {
+  margin-top: 20px;
+}
+.share > a {
+  margin: 2.5px;
+  transition: 0.5s;
+}
+.share a svg:hover {
+  transform: translateY(-5px);
+  transition: 0.5s;
+}
+.share > a > svg {
+  transition: 0.5s;
+ 
+  
+  
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #14171a;
+  height: 70vh;
+  color: white;
+  width: 50%;
+  position: relative;
+  top: 150px;
+  text-align: center;
+  padding: 5%;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.inputField {
+  padding: 20px;
+width: 100%;
+  font-size: 16px;
+ 
+  
+  border-radius: 50px;
+  background-color: transparent;
+ color: white;
+ border: 1px solid #2F363D;
+font-weight: 300;
+
+}
+
+.inputField:focus {
+  outline: none;
+}
+.submit {
+ 
+  position: absolute; 
+  padding: 20px;
+  right: 0;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+  background-color: transparent;
+  
+}
+h3 {
+
+color: white;
+}
+h4 {
+  color: white;
+
+}
+p {
+  color: gray;
+ 
+}
+p > a {
+  color: deepskyblue;
+  text-decoration: none;
+  font-weight: 500;
+
+
+
+}
+hr {
+  border-color: black;
+}
+nav {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  background-color: #14171a;
+  color: black;
+  top: 0;
+text-align: center;
+position: fixed;
+z-index: 4;
+display: flex;
+justify-content: center;
+
+border-bottom: 1px solid #2F363D;
+}
+nav a {
+
+
+
+  font-weight: 700;
+  vertical-align: middle;
+  color: white;
+ margin: 2.5px;
+
+}
+nav ul {
+  text-align: center;
+}
+h1 {
+  color: #000;
+}
+a {
+  color: black;
+}
+@media only screen and (max-width: 800px) {   
+  .App-header {
+    width: 80%;
+  }
+ 
+  .info {
+    flex-wrap: wrap;
+    width: 100%;
+    flex: 0 0 100%;
+    flex-direction: column;
+    padding: 0;
+  }
+  .container-2 {
+    width: 100%;
+    flex: 0 0 100%;
+    justify-content: center;
+    flex-direction: column;
+    
+    display: flex;
+    flex-wrap: wrap;
+padding: 0
+    
+  }
+  .divs {
+    width: 100%;
+    flex: 0 0 100%;
+    
+  }
+
+}
+form {
+  position: relative;
+}
+.divs:hover {
+
+  border: 1px solid #007BFF;
+  transition: 0.3s;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.25), 
+  0 2px 2px rgba(0,0,0,0.20), 
+  0 4px 4px rgba(0,0,0,0.15), 
+  0 8px 8px rgba(0,0,0,0.10),
+  0 16px 16px rgba(0,0,0,0.05);
+
+}
