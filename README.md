@@ -1,4 +1,4 @@
-# frontend
+# Searchapi
 
 
 A simple search app that lets you search for almost anything on the web.
